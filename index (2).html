@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع الهدايا</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>موقع الهدايا</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="بحث عن هدية">
+            <button>بحث</button>
+        </div>
+    </header>
+
+    <div class="product-grid">
+        <!-- Example product 1 -->
+        <div class="product-card">
+            <img src="product1.jpg" alt="منتج 1">
+            <h3>اسم المنتج 1</h3>
+            <p class="price">سعر المنتج: 100 ريال</p>
+            <button onclick="addToCart(1)">إضافة إلى السلة</button>
+        </div>
+        <!-- Example product 2 -->
+        <div class="product-card">
+            <img src="product2.jpg" alt="منتج 2">
+            <h3>اسم المنتج 2</h3>
+            <p class="price">سعر المنتج: 200 ريال</p>
+            <button onclick="addToCart(2)">إضافة إلى السلة</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 موقع الهدايا</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
